@@ -6,9 +6,7 @@ import ImmediateSolution from './components/ImmediateSolution';
 import ROICalculator from './components/ROICalculator';
 import RiskFreeOffer from './components/RiskFreeOffer';
 import CalendlySection from './components/CalendlySection';
-import FloatingCTA from './components/FloatingCTA';
 import Footer from './components/Footer';
-import ChatBot from './components/ChatBot';
 
 // Import pages
 import Documentation from './pages/Documentation';
@@ -30,8 +28,6 @@ function HomePage() {
       <RiskFreeOffer />
       <CalendlySection />
       <Footer />
-      <FloatingCTA />
-      <ChatBot />
     </div>
   );
 }
