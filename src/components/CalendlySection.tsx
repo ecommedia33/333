@@ -79,16 +79,14 @@ const CalendlySection = () => {
               </p>
             </div>
 
-            {/* Widget de Calendly ajustado */}
+            {/* Widget de Calendly actualizado */}
             <div className="p-4">
               <div 
-                className="calendly-inline-widget w-full" 
-                data-url="https://calendly.com/iafyagency/30min?month=2025-06&background_color=1e293b&text_color=ffffff&primary_color=3b82f6"
+                className="calendly-inline-widget" 
+                data-url="https://calendly.com/iafyagency/30min?hide_event_type_details=1&hide_gdpr_banner=1"
                 style={{ 
-                  minWidth: '100%', 
-                  height: '700px',
-                  borderRadius: '1rem',
-                  overflow: 'hidden'
+                  minWidth: '320px', 
+                  height: '700px'
                 }}
               ></div>
             </div>
@@ -116,7 +114,7 @@ const CalendlySection = () => {
         {/* CTA de respaldo espectacular */}
         <div className="text-center mt-10">
           <a
-            href="https://calendly.com/iafyagency/30min?month=2025-06"
+            href="https://calendly.com/iafyagency/30min?hide_event_type_details=1&hide_gdpr_banner=1"
             target="_blank"
             rel="noopener noreferrer"
             className="group inline-flex items-center justify-center px-10 py-5 text-2xl font-bold text-white btn-primary rounded-3xl shadow-spectacular transform hover:-translate-y-2 hover:scale-105 transition-all duration-300"
