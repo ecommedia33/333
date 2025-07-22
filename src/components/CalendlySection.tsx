@@ -80,13 +80,15 @@ const CalendlySection = () => {
             </div>
 
             {/* Widget de Calendly actualizado */}
-            <div className="p-4">
+            <div className="p-2 md:p-4">
               <div 
                 className="calendly-inline-widget" 
                 data-url="https://calendly.com/iafyagency/30min?hide_event_type_details=1&hide_gdpr_banner=1"
                 style={{ 
-                  minWidth: '320px', 
-                  height: '700px'
+                  minWidth: '100%', 
+                  width: '100%',
+                  height: '600px',
+                  maxWidth: '100%'
                 }}
               ></div>
             </div>

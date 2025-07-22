@@ -665,6 +665,25 @@
   /* GPU acceleration */
   will-change: transform;
   transform: translateZ(0);
+  /* Centrado y responsive */
+  margin: 0 auto !important;
+  max-width: 100% !important;
+}
+
+/* Optimizaciones específicas para móvil */
+@media (max-width: 768px) {
+  .calendly-inline-widget {
+    width: 100% !important;
+    min-width: 100% !important;
+    height: 500px !important;
+    border-radius: 1rem !important;
+  }
+  
+  /* Asegurar que el contenedor padre también esté centrado */
+  .calendly-inline-widget iframe {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
 }
 
 /* Selección optimizada */
